@@ -1,0 +1,29 @@
+[package]
+authors = [
+    "Daniel Egger <daniel@eggers-club.de>",
+]
+categories = ["embedded"]
+description = "Peripheral access API for NXP MKW41Z microcontrollers"
+documentation = "https://docs.rs/mkw41z"
+keywords = [
+    "no-std",
+    "arm",
+    "cortex-m",
+    "nxp",
+]
+license = "0BSD"
+name = "mkw41z"
+repository = "https://github.com/therealprof/mkw41z"
+version = "0.1.0"
+
+[dependencies]
+bare-metal = "0.1.1"
+cortex-m = "0.4.3"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.3.13"
+
+[features]
+rt = ["cortex-m-rt"]
