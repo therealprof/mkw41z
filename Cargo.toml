@@ -14,7 +14,7 @@ keywords = [
 license = "0BSD"
 name = "mkw41z"
 repository = "https://github.com/therealprof/mkw41z"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies]
 bare-metal = "0.1.1"
